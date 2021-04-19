@@ -17,9 +17,15 @@
             <header class="top-header">
                 <div class="logo-symbol"><img src="img/logo-symbol.svg"></div>
                 <div class="logo-typo"><img src="img/logo-typo.svg"></div>
-                <nav></nav>
-                <div class="contact">
-                    <a href="#">体験はこちらから</a>
+                <div class="in">
+                    <nav>
+                        <ul class="flex">
+                            <li>あああ</li>
+                        </ul>
+                    </nav>
+                    <div class="contact">
+                        <a href="#">体験はこちらから</a>
+                    </div>
                 </div>
             </header>
         </div>
@@ -60,11 +66,11 @@
             let scroll = $(this).scrollTop();
             // スクロール量がfirst-viewの高さより大きければclassを付与する
             if ( scroll > mainVisualHeight){
-                $(".top-header, .toggle, .head-logo-typo, .head-copy, nav, .contact").addClass("bisible");
+                $(".top-header").addClass("bisible");
             }
             // スクロール量がtop-headerの高さより小さければ特定のclassを消す
             else {
-                $(".top-header, .toggle, .head-logo-typo, .head-copy, nav, .contact").removeClass("bisible");
+                $(".top-header").removeClass("bisible");
             }
         });
     </script>
@@ -75,9 +81,9 @@
                 $(this).toggleClass('active');
                 
                 if ($(this).hasClass('active')) {
-                    $('.toggle-menu, .head-logo, .head-logo-toggle').addClass('active');
+                    $('.toggle-menu').addClass('active');
                 } else {
-                    $('.toggle-menu, .head-logo, .head-logo-toggle').removeClass('active');
+                    $('.toggle-menu').removeClass('active');
                 }
             });
         });
