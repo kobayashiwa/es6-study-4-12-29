@@ -466,6 +466,11 @@ main {
 	height: 20vw;
 	background: hsl(214, 97%, 23%, 0.8);
 }
+.sec-trial {
+	width: 100%;
+	height: 20vw;
+	background: hsl(214, 97%, 23%, 0.9);
+}
 
 @media screen and (max-width: 979px) {
 	.CategoryHeader {
