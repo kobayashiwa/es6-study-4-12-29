@@ -439,6 +439,11 @@ main {
 	height: 20vw;
 	background: hsl(214, 97%, 23%, 0.2);
 }
+.service {
+	width: 100%;
+	height: 30vw;
+	background: hsl(214, 97%, 23%, 0.3);
+}
 
 @media screen and (max-width: 979px) {
 	.CategoryHeader {
