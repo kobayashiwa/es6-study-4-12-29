@@ -62,15 +62,13 @@ ul, li {
 	height: 100%;
 	position: relative;
 }
-.head-logo {
+.logo-symbol {
 	position: absolute;
-	width: 48px;
-	height: 48px;
-	top: 40px;
-	left: 80px;
-	display: flex;
-	align-items: flex-start;
-	z-index: 3;
+	width: 80px;
+	height: 80px;
+	top: 0px;
+	left: 0px;
+	background: #333;
 	transition: all .2s;
 }
 .head-logo.active {
@@ -462,6 +460,11 @@ main {
 	width: 100%;
 	height: 30vw;
 	background: hsl(214, 97%, 23%, 0.7);
+}
+.sec-campaign {
+	width: 100%;
+	height: 20vw;
+	background: hsl(214, 97%, 23%, 0.8);
 }
 
 @media screen and (max-width: 979px) {
