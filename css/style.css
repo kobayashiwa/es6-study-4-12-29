@@ -315,7 +315,6 @@ nav ul li a {
 }
 .contact {
 	position: absolute;
-	
 	top:14px;
 	right: 20px;
 	transition: all .2s;
@@ -324,9 +323,15 @@ nav ul li a {
 	display: block;
 	padding: 14px 24px;
 	background: #fff;
+	border-radius: 4px;
 	font-size: 14px;
 	font-weight: 600;
 	color: #C68AA3;
+	transition: all .2s;
+}
+.contact a:hover {
+	background: #413D3C;
+	color: #fff;
 }
 @media screen and (max-width: 1299px) {
 	nav {
