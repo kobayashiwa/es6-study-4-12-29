@@ -4,7 +4,7 @@ JavaScript 学習コース IV > クラスの継承 > メソッドの追加
 ### 独自のメソッド
 継承して作成したクラスにも、メソッドを追加することができる。
 ```
-class <font color="Blue">Bbb</font> extends Aaa {
+class Bbb extends Aaa {
   getCcc() {
   *******
   }
@@ -28,3 +28,17 @@ console.log(ccc);
 
 ## コーディングトレーニング
 「FORH」のレイアウト構造をレスポンシブで写経する。
+
+#### サイト構造
+- header > logo - nav/toggle
+- main > section（main_visual_wrap） - section（top-concept） - section（sec-full-width service） - section（sec-full-width membership） - section（area-sec-half-width） - section（area-sec-half-width） - section（top_latest_entries） - section（top_media） - section（sec-cmn-03 full sec-campaign） - section（sec-full-width sec-trial bottom）
+- footer
+
+#### ブレイクポイント
+- desktop（1200px ↑）
+- tablet（1199px ↓）
+- smartDevice（768px ↓）
+
+## チャレンジ
+- ハンバーガーメニューに画像やSVGを使わずcssで描画する
+- main_visual_wrapの高さ分スクロールしたらヘッダーをTOPに追従させる
