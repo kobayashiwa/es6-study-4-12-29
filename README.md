@@ -4,7 +4,7 @@ JavaScript 学習コース IV > クラスの継承 > メソッドの追加
 ### 独自のメソッド
 継承して作成したクラスにも、メソッドを追加することができる。
 ```
-class Bbb extends Aaa {
+class <font color="Blue">Bbb</font> extends Aaa {
   getCcc() {
   *******
   }
