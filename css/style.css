@@ -92,9 +92,17 @@ ul, li {
 .logo-symbol img, .logo-typo img {
 	width: 100%;
 }
-.head-logo.active {
-	opacity: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
 .head-logo-toggle {
 	position: fixed;
 	width: 48px;
@@ -178,6 +186,7 @@ nav ul li.active::after {
 }
 nav ul li a {
 	color: #fff;
+	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
 }
