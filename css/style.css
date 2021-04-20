@@ -301,6 +301,11 @@ nav ul li a:hover {
 		left: 0;
 		transition: opacity .3s;
 	  }
+	  .toggle span:nth-of-type(3) {
+		bottom: 0;
+		left: 0;
+		transition: bottom .3s;
+	  }
 
 
 
@@ -310,14 +315,7 @@ nav ul li a:hover {
 	  
 
 @keyframes menu-bar01-open {
-	0% {
-	  width: 9px;
-	  transform: rotate(0deg) translate(0);
-	}
-	50% {
-		width: 9px;
-		transform: rotate(0deg) translate(0);
-	}
+
 	100% {
 		width: 9px;
 		transform: rotate(45deg) translate(1px, -3px);
@@ -363,7 +361,7 @@ nav ul li a:hover {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	transform: translateY(-110%);
+	transform: translateX(110%);
 	transition: all .5s;
 	background: #fff;
 	z-index: 2;
