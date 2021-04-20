@@ -124,11 +124,6 @@ nav ul {
 
 
 
-
-
-nav ul li.active::before {
-	left: 10px;
-}
 nav ul li.active::after {
 	right: 10px;
 }
@@ -307,6 +302,10 @@ nav ul li a:hover {
 	.logo-symbol {
 		width: 68px;
 		height: 68px;
+	}
+	.logo-typo {
+		top: 19px;
+		left: 88px;
 	}
 
 
