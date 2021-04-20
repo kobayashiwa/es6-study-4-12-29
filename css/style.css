@@ -123,10 +123,6 @@ nav ul {
 
 
 
-
-nav ul li.active::after {
-	right: 10px;
-}
 nav ul li a {
 	display: inline-block;
 	color: #fff;
@@ -306,6 +302,10 @@ nav ul li a:hover {
 	.logo-typo {
 		top: 19px;
 		left: 88px;
+	}
+	.contact a {
+		padding: 12px 16px;
+		font-size: 11px;
 	}
 
 
