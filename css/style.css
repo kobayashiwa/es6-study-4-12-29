@@ -287,24 +287,22 @@ nav ul li a:hover {
 	  .toggle span {
 		position: absolute;
 		width: 22px;
-		height: 4px;
+		height: 1px;
 		background: #434343;
 		border-radius: 4px;
+	  }
+	  .toggle span:nth-of-type(1) {
+		top: 0;
+		left: 0;
+		transition: top .3s;
 	  }
 
 
 
 
 
-.toggle span:nth-of-type(3) {
-	right: 15px;
-	bottom: 18px;
-	transform-origin: 100% 0;
-	animation: menu-bar03-close .2s forwards;
-}
-.toggle.active span:nth-of-type(1) {
-	animation: menu-bar01-open .4s forwards;
-}
+
+
 .toggle.active span:nth-of-type(2) {
 	transform: rotate(-45deg);
 	transition-delay: .2s;
