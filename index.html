@@ -69,10 +69,11 @@
         $(window).scroll(function(){
             // main_visual_wrapの高さを取得する
             let mainVisualHeight = $(".main_visual_wrap").height();
+            let topHeaderHeight = $(".top-header").height();
             // スクロール量の取得
             let scroll = $(this).scrollTop();
             // スクロール量がmain_visual_wrapの高さより大きければclassを付与する
-            if ( scroll > mainVisualHeight){
+            if ( scroll > mainVisualHeight - topHeaderHeight){
                 $(".top-header").addClass("bisible");
             }
             // スクロール量がtop-headerの高さより小さければ特定のclassを消す
