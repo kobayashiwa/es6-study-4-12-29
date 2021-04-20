@@ -103,16 +103,6 @@ ul, li {
 
 
 
-.head-logo-typo {
-	position: absolute;
-	width: 183px;
-	height: 48px;
-	top: 40px;
-	left: 80px;
-	display: flex;
-	align-items: flex-start;
-	transition: all 1s;
-}
 .head-logo-typo.bisible {
 	opacity: 0;
 }
@@ -145,8 +135,6 @@ nav ul li {
 	height: 100%;
 	padding: 0 10px;
 	position: relative;
-	display: flex;
-	align-items: center;
 }
 nav ul li .ja {
 	display: block;
@@ -173,10 +161,12 @@ nav ul li.active::after {
 	right: 10px;
 }
 nav ul li a {
+	display: inline-block;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 400;
-	text-align: center;
+	line-height: 80px;
+	height: 100%;
 }
 .toggle,
 .toggle span {
@@ -327,11 +317,6 @@ nav ul li a {
 .contact a:hover {
 	background: #413D3C;
 	color: #fff;
-}
-@media screen and (max-width: 1299px) {
-	nav {
-		padding-right: 140px;
-	}
 }
 @media screen and (max-width: 979px) {
 	.top-header {
