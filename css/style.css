@@ -69,8 +69,6 @@ ul, li {
     top: 0;
     left: 80px;
 }
-.top-header.bisible {
-}
 .in {
 	height: 100%;
 	position: relative;
@@ -179,7 +177,7 @@ nav ul li.active::after {
 	right: 10px;
 }
 nav ul li a {
-	color: #1C293F;
+	color: #fff;
 	font-weight: 400;
 	text-align: center;
 }
