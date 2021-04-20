@@ -306,21 +306,18 @@ nav ul li a:hover {
 		left: 0;
 		transition: bottom .3s;
 	  }
+	  .toggle.active span:nth-of-type(1) {
+		top: 20px;
+		transform: rotate(-45deg);
+		transition: top .3s cubic-bezier(.36, -.42, .68, -.56), transform .3s .3s;
+	  }
 
 
 
 
 
 
-	  
 
-@keyframes menu-bar01-open {
-
-	100% {
-		width: 9px;
-		transform: rotate(45deg) translate(1px, -3px);
-	}
-}
 @keyframes menu-bar01-close {
 	0% {
 	  width: 9px;
