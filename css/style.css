@@ -107,22 +107,6 @@ nav ul {
 	align-items: center;
 	height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav ul li a {
 	display: inline-block;
 	color: #fff;
@@ -133,6 +117,23 @@ nav ul li a {
 	height: 100%;
 	transition: all .5s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav ul li a:hover {
 	color: #212121;
 	background: #edeff1;
@@ -317,9 +318,6 @@ nav ul li a:hover {
 	}
 	.head-copy {
 		top: 66px;
-	}
-	nav {
-		display: none;
 	}
 	.toggle-menu nav {
 		display: block;
