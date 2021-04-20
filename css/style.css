@@ -124,16 +124,8 @@ nav ul {
 
 
 
-nav ul li.active::before, nav ul li.active::after {
-	display: block;
-    position: absolute;
-    content: "";
-    width: 50%;
-    height: 3px;
-    top: 46px;
-    background-color: #1c293f;
-    transition: opacity 0.3s ease-in-out;
-}
+
+
 nav ul li.active::before {
 	left: 10px;
 }
@@ -311,6 +303,10 @@ nav ul li a:hover {
 	.top-header::before{
 		width: calc( 100% - 68px );
 		left: 68px;
+	}
+	.logo-symbol {
+		width: 68px;
+		height: 68px;
 	}
 
 
