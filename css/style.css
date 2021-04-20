@@ -92,26 +92,27 @@ ul, li {
 .logo-symbol img, .logo-typo img {
 	width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav {
 	height: 100%;
 	padding-right: 200px;
 	transition: all .5s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav.bisible {
 	opacity: 0;
 }
