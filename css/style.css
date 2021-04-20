@@ -371,6 +371,9 @@ nav ul li a:hover {
 	.top-header::before{
 		background-image: none;
 	}
+	nav {
+		display: none;
+	}
 	.contact {
 		display: none;
 	}
