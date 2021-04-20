@@ -113,9 +113,7 @@ nav {
 
 
 
-nav.bisible {
-	opacity: 0;
-}
+
 nav ul {
 	justify-content: flex-end;
 	align-items: center;
