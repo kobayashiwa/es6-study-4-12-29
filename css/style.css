@@ -103,9 +103,7 @@ ul, li {
 
 
 
-.head-logo-typo.bisible {
-	opacity: 0;
-}
+
 .head-copy {
 	position: absolute;
 	top: 95px;
@@ -167,6 +165,10 @@ nav ul li a {
 	font-weight: 400;
 	line-height: 80px;
 	height: 100%;
+	transition: all .5s;
+}
+nav ul li a:hover {
+	color: #212121;
 }
 .toggle,
 .toggle span {
