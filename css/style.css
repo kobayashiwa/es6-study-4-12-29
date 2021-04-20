@@ -394,7 +394,9 @@ main {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: hsl(214, 97%, 23%, 0.1);
+	background: url(../img/plants-5769701_1920.jpeg);
+	background-position: center;
+	background-size: cover;
 }
 .top-concept {
 	width: 100%;
