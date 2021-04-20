@@ -103,10 +103,6 @@ ul, li {
 
 
 
-
-.head-logo-toggle.active {
-	opacity: 1;
-}
 .head-logo-typo {
 	position: absolute;
 	width: 183px;
@@ -146,8 +142,11 @@ nav ul {
 	height: 100%;
 }
 nav ul li {
+	height: 100%;
 	padding: 0 10px;
 	position: relative;
+	display: flex;
+	align-items: center;
 }
 nav ul li .ja {
 	display: block;
