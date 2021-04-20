@@ -73,7 +73,6 @@ ul, li {
 	position: fixed;
 	top: 0;
 	left: 0;
-	transition: opacity 1s ease-in-out;
 }
 .in {
 	height: 100%;
@@ -124,10 +123,6 @@ nav ul {
 
 
 
-nav ul li .ja {
-	display: block;
-	font-size: 0.5rem;
-}
 nav ul li .en {
 	display: block;
 	line-height: 26px;
@@ -312,9 +307,9 @@ nav ul li a:hover {
 	background: #413D3C;
 	color: #fff;
 }
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 1199px) {
 	.top-header {
-		height: 90px;
+		height: 68px;
 	}
 	.head-logo, .head-logo-typo, .head-logo-toggle, .head-logo-toggle.active {
 		top: 14px;
