@@ -328,10 +328,10 @@ nav ul li a:hover {
 
 
 
+
+
 	
-	.head-copy {
-		top: 66px;
-	}
+	
 	.toggle-menu nav {
 		display: block;
 		padding: 90px 60px;
@@ -365,7 +365,12 @@ nav ul li a:hover {
 		height: 100%;
 	}
 }
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 989px) {
+	.contact {
+		display: none;
+	}
+
+
 	.head-logo, .head-logo-typo, .head-copy, .head-logo-toggle {
 		left: 24px;
 	}
