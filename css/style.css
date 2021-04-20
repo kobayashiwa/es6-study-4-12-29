@@ -104,15 +104,8 @@ ul, li {
 
 
 
-.head-copy {
-	position: absolute;
-	top: 95px;
-	left: 80px;
-	color: #1C293F;
-	font-size: 10px;
-	font-weight: 600;
-	transition: all .2s;
-}
+
+
 .head-copy.bisible {
 	opacity: 0;
 }
