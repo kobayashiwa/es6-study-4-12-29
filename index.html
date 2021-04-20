@@ -67,11 +67,11 @@
     <script>
         // スクロール時に実行する
         $(window).scroll(function(){
-            // first-viewの高さを取得する
-            let mainVisualHeight = $(".top-header").height();
+            // main_visual_wrapの高さを取得する
+            let mainVisualHeight = $(".main_visual_wrap").height();
             // スクロール量の取得
             let scroll = $(this).scrollTop();
-            // スクロール量がfirst-viewの高さより大きければclassを付与する
+            // スクロール量がmain_visual_wrapの高さより大きければclassを付与する
             if ( scroll > mainVisualHeight){
                 $(".top-header").addClass("bisible");
             }
