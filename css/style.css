@@ -350,10 +350,10 @@ nav ul li a:hover {
 	}
 
 	
+
+
 	
-	.toggle-menu nav .en{
-		font-size: 24px;
-	}
+	
 	.toggle-menu.active nav ul li.active::before, .toggle-menu.active nav ul li.active::after {
 		display: none;
 	}
@@ -370,6 +370,7 @@ nav ul li a:hover {
 		position: fixed;
 		top: 0;
 		left: 0;
+		height: 64px;
 	}
 	.contact {
 		display: none;
