@@ -265,14 +265,16 @@ nav ul li a:hover {
 	.contact {
 		display: none;
 	}
+	.toggle, .toggle span {
+		display: inline-block;
+	}
 
 
 
 
-	.toggle,
-.toggle span {
-  display: inline-block;
-}
+
+	
+
 .toggle {
 	display: block;
 	position: fixed;
@@ -297,7 +299,7 @@ nav ul li a:hover {
 	position: absolute;
 	width: 18px;
 	height: 2px;
-	background: #fff;
+	background: #434343;
 }
 .toggle span:nth-of-type(1) {
 	top: 18px;
