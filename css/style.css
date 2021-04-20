@@ -296,20 +296,19 @@ nav ul li a:hover {
 		left: 0;
 		transition: top .3s;
 	  }
+	  .toggle span:nth-of-type(2) {
+		top: 20px;
+		left: 0;
+		transition: opacity .3s;
+	  }
 
 
 
 
 
 
+	  
 
-.toggle.active span:nth-of-type(2) {
-	transform: rotate(-45deg);
-	transition-delay: .2s;
-}
-.toggle.active span:nth-of-type(3) {
-	animation: menu-bar03-open .4s forwards;
-}
 @keyframes menu-bar01-open {
 	0% {
 	  width: 9px;
@@ -366,7 +365,7 @@ nav ul li a:hover {
 	height: 100%;
 	transform: translateY(-110%);
 	transition: all .5s;
-	background: #1C293F;
+	background: #fff;
 	z-index: 2;
 	overflow: auto;
  -webkit-overflow-scrolling: touch;
