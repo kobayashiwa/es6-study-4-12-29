@@ -103,18 +103,7 @@ ul, li {
 
 
 
-.head-logo-toggle {
-	position: fixed;
-	width: 48px;
-	height: 48px;
-	top: 40px;
-	left: 80px;
-	display: flex;
-	align-items: flex-start;
-	z-index: 3;
-	opacity: 0;
-	transition: all .5s;
-}
+
 .head-logo-toggle.active {
 	opacity: 1;
 }
@@ -145,7 +134,7 @@ ul, li {
 }
 nav {
 	height: 100%;
-	padding-right: 160px;
+	padding-right: 200px;
 	transition: all .5s;
 }
 nav.bisible {
