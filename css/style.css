@@ -331,7 +331,7 @@ nav ul li a:hover {
 
 
 	
-	
+
 	.toggle-menu nav {
 		display: block;
 		padding: 90px 60px;
@@ -348,9 +348,9 @@ nav ul li a:hover {
 	.toggle-menu nav ul li a {
 		text-align: left;
 	}
-	.toggle-menu nav .ja{
-		display: none;
-	}
+
+	
+	
 	.toggle-menu nav .en{
 		font-size: 24px;
 	}
@@ -366,9 +366,15 @@ nav ul li a:hover {
 	}
 }
 @media screen and (max-width: 989px) {
+	.top-header {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
 	.contact {
 		display: none;
 	}
+	
 
 
 	.head-logo, .head-logo-typo, .head-copy, .head-logo-toggle {
