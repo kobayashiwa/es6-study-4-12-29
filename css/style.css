@@ -124,30 +124,6 @@ nav ul li a:hover {
 .toggle {
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact {
 	position: absolute;
 	top:14px;
@@ -164,6 +140,32 @@ nav ul li a:hover {
 	color: #C68AA3;
 	transition: all .2s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact a:hover {
 	background: #413D3C;
 	color: #fff;
