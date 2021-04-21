@@ -297,8 +297,8 @@ nav ul li a:hover {
 		transition: top .3s;
 	  }
 	  .toggle span:nth-of-type(2) {
-		top: 20px;
-		left: 0;
+		top: 21px;
+		left: 11px;
 		transition: opacity .3s;
 	  }
 	  .toggle span:nth-of-type(3) {
@@ -330,17 +330,6 @@ nav ul li a:hover {
 	  
 
 @keyframes menu-bar03-open {
-
-	
-
-	50% {
-		width: 9px;
-		transform: rotate(0deg) translate(0);
-	}
-	100% {
-		width: 9px;
-		transform: rotate(45deg) translate(0px, 3px);
-	}
 }
 @keyframes menu-bar03-close {
 	0% {
@@ -378,6 +367,7 @@ nav ul li a:hover {
 	color: #000;
 	display: inline-block;
 	width: 100%;
+	font-size: 14px;
 }
 	
 
