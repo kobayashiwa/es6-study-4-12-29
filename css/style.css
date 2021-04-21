@@ -121,7 +121,7 @@ nav ul li a:hover {
 	color: #212121;
 	background: #edeff1;
 }
-.toggle {
+.toggle, .toggle-menu {
 	display: none;
 }
 .contact {
@@ -277,6 +277,7 @@ nav ul li a:hover {
 		transition: bottom .3s cubic-bezier(.36, -.42, .68, -.56), transform .3s .3s;
 	  }
 	  .toggle-menu {
+		  display: block;
 		position: fixed;
 		top: 0;
 		right: 0;
