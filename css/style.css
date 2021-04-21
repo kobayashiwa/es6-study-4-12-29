@@ -302,8 +302,8 @@ nav ul li a:hover {
 		transition: opacity .3s;
 	  }
 	  .toggle span:nth-of-type(3) {
-		bottom: 0;
-		left: 0;
+		bottom: 16px;
+		left: 11px;
 		transition: bottom .3s;
 	  }
 	  .toggle.active span:nth-of-type(1) {
@@ -329,13 +329,12 @@ nav ul li a:hover {
 
 	  
 
-@keyframes menu-bar03-open {
-}
+	  
+
 @keyframes menu-bar03-close {
-	0% {
-	  width: 9px;
-	  transform: rotate(45deg) translate(0px, 0px);
-	}
+
+	
+
 	100% {
 		width: 18px;
 		transform: rotate(0deg) translate(0);
@@ -373,7 +372,7 @@ nav ul li a:hover {
 
 
 	.toggle-menu nav {
-		padding: 90px 24px;
+		padding: 80px 16px;
 	}
 }
 
