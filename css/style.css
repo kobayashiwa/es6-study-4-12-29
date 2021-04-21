@@ -333,16 +333,20 @@ nav ul li a:hover {
 		overflow: auto;
 	 -webkit-overflow-scrolling: touch;
 	}
+	.toggle-menu.active {
+		transform: translateY(0%);
+	}
 
 
 
 
 
-.toggle-menu.active {
-	transform: translateY(0%);
-}
+
 .toggle-menu.active nav.bisible {
 	opacity: 1;
+}
+.toggle-menu.active nav ul li {
+	margin: 0;
 }
 .toggle-menu.active nav ul li a:hover {
 	background: none;
