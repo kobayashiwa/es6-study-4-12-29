@@ -140,32 +140,6 @@ nav ul li a:hover {
 	color: #C68AA3;
 	transition: all .2s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact a:hover {
 	background: #413D3C;
 	color: #fff;
@@ -198,21 +172,6 @@ nav ul li a:hover {
 		line-height: 68px;
 		padding: 0 8px;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
 	.toggle-menu nav {
 		display: block;
 		padding: 90px 60px;
@@ -229,11 +188,6 @@ nav ul li a:hover {
 	.toggle-menu nav ul li a {
 		text-align: left;
 	}
-
-	
-
-	
-	
 	.toggle, .toggle.bisible {
 		top: 21px;
 		opacity: 1;
@@ -338,35 +292,25 @@ nav ul li a:hover {
 	.toggle-menu.active {
 		transform: translateY(0%);
 	}
-
-
-
-
-
-
-.toggle-menu.active nav.bisible {
-	opacity: 1;
-}
-.toggle-menu.active nav ul li {
-	margin: 0;
-}
-.toggle-menu.active nav ul li a:hover {
-	background: none;
-}
-.toggle-menu.active nav ul li a {
-	color: #000;
-	display: inline-block;
-	width: 100%;
-	font-size: 14px;
-}
-	
-
-
+	.toggle-menu.active nav.bisible {
+		opacity: 1;
+	}
+	.toggle-menu.active nav ul li {
+		margin: 0;
+	}
+	.toggle-menu.active nav ul li a:hover {
+		background: none;
+	}
+	.toggle-menu.active nav ul li a {
+		color: #000;
+		display: inline-block;
+		width: 100%;
+		font-size: 14px;
+	}
 	.toggle-menu nav {
 		padding: 80px 16px;
 	}
 }
-
 /** main **/
 main {
 	width: 100%;
@@ -389,6 +333,18 @@ main {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
+
+
+
+	
+
+
 .main_visual_wrap h1 img {
 	width: 100%;
 }
