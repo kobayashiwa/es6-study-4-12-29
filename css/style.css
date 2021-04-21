@@ -344,8 +344,8 @@ nav ul li a:hover {
 .toggle-menu.active nav.bisible {
 	opacity: 1;
 }
-.toggle-menu.active nav ul li.active::before, .toggle-menu.active nav ul li.active::after {
-    background-color: #fff;
+.toggle-menu.active nav ul li a:hover {
+	background: none;
 }
 .toggle-menu.active nav ul li a {
 	color: #000;
