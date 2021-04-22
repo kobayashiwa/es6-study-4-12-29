@@ -204,8 +204,12 @@
                 this.name03 = name03;
                 this.people = people;
             }
+            organizer() {
+                console.log("主催：コニカミノルタマーケティングサービス株式会社");
+            }
         }
         const meet = new Meet("LION", "田村 雄大", "DNP", "平内 庸介", "KONICA MINOLTA", "清水 隆史", 3);
+        meet.organizer();
         console.log(`---------`);
     </script>
 
