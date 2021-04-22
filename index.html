@@ -272,7 +272,9 @@
             }
         }
         class Cx extends StoreDX {
-            getAnnouncement() {}
+            getAnnouncement() {
+                return this.time -4;
+            }
         }
 
         const storeDX = new StoreDX("リアル", "デジタル", "店頭体験", 12);
