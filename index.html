@@ -151,7 +151,9 @@
             }
         }
         class Event extends Konica {
-            getNextYear() {}
+            getNextYear() {
+                return this.year +1;
+            }
         }
         const konica = new Konica("コニカミノルタマーケティングサービス株式会社", 2021);
         konica.info();       
