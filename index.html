@@ -195,15 +195,17 @@
 
         // Meet
         class Meet {
-            constructor(client01, name01, client02, name02, client03, name03) {
+            constructor(client01, name01, client02, name02, client03, name03, people) {
                 this.client01 = client01;
                 this.name01 = name01;
                 this.client02 = client02;
                 this.name02 = name02;
                 this.client03 = client03;
                 this.name03 = name03;
+                this.people = people;
             }
         }
+        const meet = new Meet("LION", "田村 雄大", "DNP", "平内 庸介", "KONICA MINOLTA", "清水 隆史", 3);
         console.log(`---------`);
     </script>
 
