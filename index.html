@@ -150,7 +150,9 @@
                 console.log(`${this.company}の${this.year}年無料ウェビナー`);
             }
         }
-        class Event extends Konica {}
+        class Event extends Konica {
+            getNextYear() {}
+        }
         const konica = new Konica("コニカミノルタマーケティングサービス株式会社", 2021);
         konica.info();       
     </script>
