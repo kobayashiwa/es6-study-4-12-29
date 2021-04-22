@@ -216,7 +216,9 @@
             }
         }
         class Online extends Meet {
-            getOtherTeacher() {}
+            getOtherTeacher() {
+                return this.people *4;
+            }
         }
         const online = new Online("LION", "田村 雄大", "DNP", "平内 庸介", "KONICA MINOLTA", "清水 隆史", 3);
         online.info();
