@@ -240,19 +240,19 @@
             }
             info() {
                 this.overview();
-                console.log(`${this.who}の${this.action}に関しては、オンラインではデータ分析と活用が進んでいる一方、リアル店舗では競合商品との比較検討等、購買前の${this.who}行動データの取得や分析は手付かずになっており、DX化の　遅れが課題となっているのが現状です。`);
+                console.log(`${this.who}の${this.action}に関しては、オンラインではデータ分析と活用が進んでいる一方、リアル店舗では競合商品との比較検討等、購買前の${this.who}行動データの取得や分析は手付かずになっており、DX化の遅れが課題となっているのが現状です。`);
             }
         }
         class Dx extends Shopper {
             getRelease() {
-                return this.day -2;
+                return this.day -1;
             }
         }
         const dx = new Dx("ショッパー", "購買行動", 2);
         dx.info();
 
         const release = dx.getRelease();
-
+        console.log(`※この情報は${release}日前のデータを元にしています。`);
         console.log(`---------`);
     </script>
 
