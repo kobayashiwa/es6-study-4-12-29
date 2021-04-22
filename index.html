@@ -161,6 +161,7 @@
         const nextYear = event.getNextYear();
         console.log(`次回の開催は${nextYear}年となります`)
 
+
         class Lion {
             constructor(post, client, month) {
                 this.post = post;
@@ -176,12 +177,15 @@
             }
         }
         class Seminar extends Lion {
-            getNextMonth() {
+            getNextSeminar() {
                 return this.month +2;
             }
         }
-        const lion = new Lion("ストアDX最前線！", "ライオン", 5);
-        lion.info();
+        const seminar = new Seminar("ストアDX最前線！", "ライオン", 5);
+        seminar.info();
+
+        const nextSeminar = seminar.getNextSeminar();
+        console.log(`セミナーは隔月で開催中。次回は${nextSeminar}月となります`);
     </script>
 
 </html>
