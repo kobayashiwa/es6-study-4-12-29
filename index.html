@@ -175,6 +175,11 @@
                 console.log(`${this.post}${this.client}様に学ぶリテールニューノーマルの取り組みとは？`);
             }
         }
+        class Seminar extends Lion {
+            getNextMonth() {
+                return this.month +2;
+            }
+        }
         const lion = new Lion("ストアDX最前線！", "ライオン", 5);
         lion.info();
     </script>
