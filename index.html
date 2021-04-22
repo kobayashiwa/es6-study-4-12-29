@@ -239,7 +239,9 @@
                 console.log("セミナー概要");
             }
         }
-        class Dx extends Shopper {}
+        class Dx extends Shopper {
+            getRelease() {}
+        }
         const dx = new Dx("ショッパー", "購買行動", 2);
         dx.overview();
 
