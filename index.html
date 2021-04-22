@@ -118,9 +118,12 @@
             greet() {
                 console.log("こんにちは");
             }
+            info() {
+                this.greet();
+            }
         }
         const animal = new Animal("レオ", 4);
-        animal.greet();
+        animal.info();
         console.log(`名前は${animal.name}です。年齢は${animal.age}歳です。`);
     </script>
 
