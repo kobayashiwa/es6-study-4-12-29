@@ -142,8 +142,12 @@
                 this.company = company;
                 this.year = year;
             }
+            news() {
+                console.log("ニュース");
+            }
         }
         const konica = new Konica("コニカミノルタマーケティングサービス株式会社", 2021);
+        konica.news();
         console.log(`${konica.company}の${konica.year}年無料ウェビナー`);
     </script>
 
