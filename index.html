@@ -240,7 +240,9 @@
             }
         }
         class Dx extends Shopper {
-            getRelease() {}
+            getRelease() {
+                return this.day -2;
+            }
         }
         const dx = new Dx("ショッパー", "購買行動", 2);
         dx.overview();
