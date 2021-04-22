@@ -170,9 +170,12 @@
             time() {
                 console.log("2021年5月11日（火）15:00〜16:20");
             }
+            info() {
+                this.time();
+            }
         }
         const lion = new Lion();
-        lion.time();
+        lion.info();
     </script>
 
 </html>
