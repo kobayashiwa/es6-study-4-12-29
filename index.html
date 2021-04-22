@@ -235,8 +235,12 @@
                 this.action = action;
                 this.day = day;
             }
+            overview() {
+                console.log("セミナー概要");
+            }
         }
         const shopper = new Shopper("ショッパー", "購買行動", 2);
+        shopper.overview();
 
         console.log(`---------`);
     </script>
