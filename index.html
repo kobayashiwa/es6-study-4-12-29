@@ -238,6 +238,9 @@
             overview() {
                 console.log("セミナー概要");
             }
+            info() {
+                this.overview();
+            }
         }
         class Dx extends Shopper {
             getRelease() {
@@ -245,7 +248,7 @@
             }
         }
         const dx = new Dx("ショッパー", "購買行動", 2);
-        dx.overview();
+        dx.info();
 
         const release = dx.getRelease();
 
