@@ -135,6 +135,7 @@
 
         const humanAge = dog.getHumanAge();
         console.log(`人間年齢で${humanAge}歳です`);
+        console.log(`---------`);
 
 
         // Konica
@@ -161,6 +162,7 @@
         
         const nextYear = event.getNextYear();
         console.log(`次回の開催は${nextYear}年となります`)
+        console.log(`---------`);
 
 
         // Lion
@@ -188,10 +190,21 @@
 
         const nextSeminar = seminar.getNextSeminar();
         console.log(`セミナーは隔月で開催中。次回は${nextSeminar}月となります`);
+        console.log(`---------`);
 
 
         // Meet
-        class Meet {}
+        class Meet {
+            constructor(client01, name01, client02, name02, client03, name03) {
+                this.client01 = client01;
+                this.name01 = name01;
+                this.client02 = client02;
+                this.name02 = name02;
+                this.client03 = client03;
+                this.name03 = name03;
+            }
+        }
+        console.log(`---------`);
     </script>
 
 </html>
