@@ -277,9 +277,10 @@
             }
         }
 
-        const storeDX = new StoreDX("リアル", "デジタル", "店頭体験", 12);
+        const cx = new Cx("リアル", "デジタル", "店頭体験", 12);
         storeDX.info();
 
+        const announcement = cx.getAnnouncement();
         console.log(`---------`);
     </script>
 
